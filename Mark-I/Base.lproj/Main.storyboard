@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="FoO-ll-jm1">
-                                <rect key="frame" x="5" y="388" width="404" height="120"/>
+                                <rect key="frame" x="1" y="388" width="412" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvz-u6-2l8">
-                                        <rect key="frame" x="0.0" y="0.0" width="100.5" height="120"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="102.5" height="120"/>
                                         <color key="backgroundColor" systemColor="linkColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="AkJ-UX-emO"/>
@@ -31,7 +31,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZk-gq-oNY">
-                                        <rect key="frame" x="101.5" y="0.0" width="100" height="120"/>
+                                        <rect key="frame" x="103.5" y="0.0" width="102" height="120"/>
                                         <color key="backgroundColor" systemColor="linkColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="whz-gX-3xJ"/>
@@ -42,7 +42,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWo-vX-Ear">
-                                        <rect key="frame" x="202.5" y="0.0" width="100.5" height="120"/>
+                                        <rect key="frame" x="206.5" y="0.0" width="102.5" height="120"/>
                                         <color key="backgroundColor" systemColor="linkColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="HJj-rQ-VcO"/>
@@ -53,7 +53,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQz-Rg-rkb">
-                                        <rect key="frame" x="304" y="0.0" width="100" height="120"/>
+                                        <rect key="frame" x="310" y="0.0" width="102" height="120"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="6c6-9D-042"/>
@@ -72,8 +72,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="FoO-ll-jm1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2uL-fs-kI0"/>
-                            <constraint firstItem="FoO-ll-jm1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="mlX-Of-JsN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FoO-ll-jm1" secondAttribute="trailing" constant="5" id="o5Z-l3-7s1"/>
+                            <constraint firstItem="FoO-ll-jm1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="1" id="mlX-Of-JsN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FoO-ll-jm1" secondAttribute="trailing" constant="1" id="o5Z-l3-7s1"/>
                         </constraints>
                     </view>
                 </viewController>
