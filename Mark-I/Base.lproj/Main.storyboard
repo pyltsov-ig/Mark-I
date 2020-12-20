@@ -25,10 +25,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lht-9b-FD4">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="100" id="D7O-dU-6KZ"/>
-                                                    <constraint firstAttribute="height" constant="100" id="hLp-Jh-RwE"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="AC">
@@ -70,10 +66,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEu-Ea-1Ei">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
                                                 <color key="backgroundColor" systemColor="linkColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="100" id="nWZ-vz-H9L"/>
-                                                    <constraint firstAttribute="height" constant="100" id="tOQ-aX-YeW"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="7">
@@ -115,10 +107,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIe-9h-Stt">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
                                                 <color key="backgroundColor" systemColor="linkColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="100" id="Jty-XO-Jtb"/>
-                                                    <constraint firstAttribute="height" constant="100" id="fWD-b8-oUF"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="4">
@@ -160,10 +148,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSy-uT-qoL">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
                                                 <color key="backgroundColor" systemColor="linkColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="100" id="ENb-ge-EaE"/>
-                                                    <constraint firstAttribute="height" constant="100" id="bKT-ST-dQT"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="1">
@@ -205,10 +189,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntS-2B-Fhy">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
                                                 <color key="backgroundColor" systemColor="linkColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="8Sc-Th-neE"/>
-                                                    <constraint firstAttribute="width" constant="100" id="DTK-IV-tdZ"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="0">
