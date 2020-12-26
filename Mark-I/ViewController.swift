@@ -3,7 +3,8 @@
 //  Mark-I
 //
 //  Created by ИГОРЬ on 19/12/2020.
-//
+//  Алгоритмы обработчика сделаны на основе курса https://swiftbook.ru/content/8-index/
+//  
 
 import UIKit
 
@@ -12,16 +13,22 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var displayResultLabel: UILabel!
     var stillTyping = false // флаг для определения продолжения ввода
-    var commaExists = false
+    var commaExists = false // запятая нажата? должно быть только один раз
     var firstOperand:   Double = 0
     var secondOperand:  Double = 0
     var operationSign:  String = ""
-    var currentInput:   Double {
+    var currentInput:   Double { //текущее число на дисплее
         get {
-            return Double(displayResultLabel.text!)!
+            return Double(displayResultLabel.text!)! // возвращает значение на дисплее
         }
         set {
-            displayResultLabel.text = "\(newValue)"
+            let value = "\(newValue)" // записываем новое значение
+            let valueArray = value.components(separatedBy: ".")// разделяем значение на массив,
+            if valueArray[1] == "0" { // определяем, есть дробная часть
+                displayResultLabel.text = "\(valueArray[0])" // если нет, то пишем целую часть
+            } else {
+                displayResultLabel.text = "\(newValue)" // если есть, то все целиком
+            }
             stillTyping = false
         }
     }
@@ -55,8 +62,6 @@ class ViewController: UIViewController {
     }
     
     func operateWithTwoOperands(operation: (Double, Double) -> Double) {
-        print(firstOperand)
-        print(secondOperand)
         currentInput = operation(firstOperand, secondOperand)
         stillTyping = false
 
@@ -70,11 +75,8 @@ class ViewController: UIViewController {
         
         commaExists = false
         
-        print("First \(firstOperand)")
-        print("Secind \(secondOperand)")
-
-        
         switch operationSign {
+        
         case "+": operateWithTwoOperands {$0 + $1}
         case "-": operateWithTwoOperands {$0 - $1}
         case "/": operateWithTwoOperands {$0 / $1}
@@ -104,7 +106,6 @@ class ViewController: UIViewController {
         if firstOperand == 0 {
             currentInput = currentInput/100
         } else {
-            //currentInput = firstOperand * currentInput / 100
             secondOperand = firstOperand * currentInput / 100
             currentInput = secondOperand
         }
@@ -117,11 +118,11 @@ class ViewController: UIViewController {
     @IBAction func commaPressed(_ sender: UIButton) {
         if stillTyping && !commaExists {
             displayResultLabel.text = displayResultLabel.text!+"."
-            commaExists = true
         } else if !stillTyping && !commaExists {
-            displayResultLabel.text = ".0"
+            displayResultLabel.text = "0."
+            commaExists = true
+            stillTyping = true
         }
-            
         
     }
     

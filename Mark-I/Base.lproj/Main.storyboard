@@ -67,6 +67,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ab8-3g-XdR"/>
                                                     <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1iF-X8-Jhk"/>
                                                 </connections>
                                             </button>
@@ -120,6 +121,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ugo-2K-jcH"/>
                                                     <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qZs-Xd-p2S"/>
                                                 </connections>
                                             </button>
@@ -173,6 +175,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7qV-5O-q3T"/>
                                                     <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wEx-iK-J6g"/>
                                                 </connections>
                                             </button>
@@ -226,6 +229,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G88-RT-0RX"/>
                                                     <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuH-Bb-0Pk"/>
                                                 </connections>
                                             </button>
